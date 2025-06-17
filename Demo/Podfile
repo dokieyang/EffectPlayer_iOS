@@ -1,0 +1,26 @@
+# Copyright (c) 2021 Tencent. All rights reserved.
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'TCEffectPlayerDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  #pod 'TXLiteAVSDK_Player'
+  pod 'Masonry'
+  
+  # 腾讯动画特效播放器依赖的库，可能是旧的， 您可以去官网获取到最新的版本
+  # The library that Tencent Gift AR Player relies on may be outdated. You can get the latest version from the official website.
+  pod 'TCMediaX', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.1.249/TCMediaX.podspec'
+  pod 'TCEffectPlayer', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.1.249/TCEffectPlayer.podspec'
+  pod 'YTCommonXMagic', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/YTCommonXMagic_1.2/YTCommonXMagic.podspec'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.0' # 将 '10.0' 改为你需要的最低支持版本
+    end
+  end
+end
