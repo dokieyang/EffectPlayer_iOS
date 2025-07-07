@@ -20,7 +20,7 @@ Decompress the downloaded zip file, enter the TCEffectPlayerDemo_iOS directory, 
 
 ## Modify Configuration
 
-Replace the license information in the project. Open the AppDelegate.m file, find the LICENCE_URL and LICENCE_KEY fields, and replace the corresponding values with the license information of the Tencent Gift AR  SDK you applied for. The Tencent Gift AR SDK supports applying for a trial License for experience. For application details, [click]() to view.
+Replace the license information in the project. Open the AppDelegate.m file, find the LICENCE_URL and LICENCE_KEY fields, and replace the corresponding values with the license information of the Tencent Gift AR  SDK you applied for. The Tencent Gift AR SDK supports applying for a trial License for experience. For application details, [click](https://trtc.io/document/60219?platform=ios&product=beautyar) to view.
 
 ![](https://write-document-release-1258344699.cos.ap-guangzhou.tencentcos.cn/100026789402/224e32b24b7511f0b25352540099c741.png)
 

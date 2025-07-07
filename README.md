@@ -26,9 +26,9 @@ This project includes the Gift AR SDK Demo operation guide and SDK download.
 
 ## Integration Guide and Documentation
 
-- [Functional Overview]()
-- [Integration Guide]()
-- [FAQ]()
+- [Functional Overview](https://trtc.io/document/70595?platform=ios&product=beautyar)
+- [Integration Guide](https://trtc.io/document/70537?platform=ios&product=beautyar)
+- [FAQ](https://trtc.io/document/70544?platform=ios&product=beautyar)
 
 ## Contact Us
 - Communication & Feedback   
