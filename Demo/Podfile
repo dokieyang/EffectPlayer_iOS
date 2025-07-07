@@ -12,9 +12,9 @@ target 'TCEffectPlayerDemo' do
   
   # 腾讯动画特效播放器依赖的库，可能是旧的， 您可以去官网获取到最新的版本
   # The library that Tencent Gift AR Player relies on may be outdated. You can get the latest version from the official website.
-  pod 'TCMediaX', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.1.249/TCMediaX.podspec'
-  pod 'TCEffectPlayer', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.1.249/TCEffectPlayer.podspec'
-  pod 'YTCommonXMagic', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/YTCommonXMagic_1.2/YTCommonXMagic.podspec'
+  pod 'TCMediaX', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.2/241/TCMediaX.podspec'
+  pod 'TCEffectPlayer', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/3.2/241/TCEffectPlayer.podspec'
+  pod 'YTCommonXMagic', :podspec => 'https://mediacloud-76607.gzc.vod.tencent-cloud.com/MediaX/iOS/podspec/release/YTCommonXMagic_1.3.1/YTCommonXMagic.podspec'
 end
 
 post_install do |installer|
